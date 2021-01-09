@@ -1788,5 +1788,37 @@
     "death_function": [ "NORMAL" ],
     "special_attacks": [ { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "EAT_CROP", 120 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "LARVA", "STUMBLES", "PATH_AVOID_FIRE" ]
-  }
+  },
+  {
+    "id": "mon_stag_beetle",
+    "type": "MONSTER",
+    "name": { "str": "stag beetle" },
+    "description": "Once a priceless insect, the stag beetle seems to have grown to the size of a calf. Their long pincers flexing shut every so often."
+    "default_faction": "stag_beetle",
+    "bodytype": "insect",
+    "species": [ "INSECT" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 85,
+    "speed": 75,
+    "material": [ "flesh" ],
+    "symbol": "b",
+    "color": "black",
+    "aggression": -10,
+    "morale": 80,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "dodge": 1,
+    "melee_cut": 0,
+    "armor_bash": 10,
+    "armor_cut": 15,
+    "armor_bullet": 8,
+    "vision_day": 15,
+    "vision_night": 5,
+    "harvest": "arachnid",
+    "death_function": [ "NORMAL" ],
+    "special_attacks": [ "GRAB",
+    "flags": [ "SEES", "SMELLS", "PATH_AVOID_FIRE" ]
+   }
 ]
